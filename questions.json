@@ -1,0 +1,70 @@
+callback ({
+
+    "firstQuiz": [{
+        "question": "What is the best-selling Album of all time?",
+        "choices": ["Elton John - Made in England", "Take That - The Circus", "Michael Jackson - Thriller", "ACDC - Back in Black"],
+        "correctAnswer": 2
+    }, {
+        "question": "In which country were the first Olympic Games held?",
+        "choices": ["United States", "Australia", "Greece", "France", "China"],
+        "correctAnswer": 2
+    }, {
+        "question": "Which of these characters turned 40 years old in 1990?",
+        "choices": ["Bugs Bunny", "Charlie Brown", "Fred Flintstone", "Mickey Mouse"],
+        "correctAnswer": 1
+    }, {
+        "question": "What is the Capital city of Switzerland?",
+        "choices": ["Bern", "St. Gallen", "Geneva", "Zurich"],
+        "correctAnswer": 0
+    }, {
+        "question": "Which of the following is not a primary color?",
+        "choices": ["Red", "Blue", "Green", "Yellow"],
+        "correctAnswer": 3
+    }],
+
+    "secondQuiz": [{
+        "question": "Which player holds the record for most consecutive games played?",
+        "choices": ["Pete Rose", "Lou Gehrig", "Cal Ripken Jr.", "Stan Musial"],
+        "correctAnswer": 2
+    }, {
+        "question": "Which of these teams have never won a championship?",
+        "choices": ["Houston Rockets", "Milwaukee Bucks", "Indiana Pacers", "New York Knicks"],
+        "correctAnswer": 2
+    }, {
+        "question": "What jersey number did Wayne Gretzky wear?",
+        "choices": ["27", "1", "9", "99","55"],
+        "correctAnswer": 3
+    }, {
+        "question": "What color jacket is given to the winner of the Masters Tournament?",
+        "choices": ["Green", "Gold", "Black", "Brown"],
+        "correctAnswer": 0
+    }, {
+        "question": "Which Olympic athlete has won a combined total of 28 medals?",
+        "choices": ["Usain Bolt", "Mark Spitz", "Michael Phelps", "Carl Lewis"],
+        "correctAnswer": 2
+    }],
+
+    "thirdQuiz": [{
+        "question": "How many planets are there in our solar system?",
+        "choices": ["5", "10", "8", "12"],
+        "correctAnswer": 2
+    }, {
+        "question": "Which is the largest planet in our solar system?",
+        "choices": ["Jupiter", "Venus", "Pluto", "Mercury", "Mars"],
+        "correctAnswer": 0
+    }, {
+        "question": "Which US astronaut became the first man to hit a golf ball on the moon?",
+        "choices": ["Buzz Aldrin", "Sally Ride", "Neil Armstrong", "Alan Shepard"],
+        "correctAnswer": 3
+    }, {
+        "question": "Which is the second planet from the sun?",
+        "choices": ["Jupiter", "Venus", "Pluto", "Mercury", "Mars"],
+        "correctAnswer": 1
+    }, {
+        "question": "Phobos and Diemos are the moons of which planet in our solar system?",
+        "choices": ["Saturn", "Venus", "Uranus", "Mercury", "Mars"],
+        "correctAnswer": 4
+    }]
+
+
+})

@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Quiz Application</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	</head>
+	<body>
+		<div class="container text-center">
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#1" data-toggle="tab">General Quiz</a></li>
+				<li><a href="#2" data-toggle="tab">Sports Quiz</a></li>
+				<li><a href="#3" data-toggle="tab">Astronomy Quiz</a></li>
+			</ul>
+		</div>
+		
+
+	<div class="tab-content">
+			<div class="tab-pane active" id="1">
+
+					<div class="container">
+						<div class="row col-sm-8 col-md-offset-2"><div class="col-sm-12"><p class="h1">General Quiz</p></div></div>
+						<form id="form1">
+							<div class="row col-sm-8 col-md-offset-2"><div class="col-sm-12"><div id="question" class="quiz1"></div></div></div>
+							<div class="row col-sm-8 col-md-offset-2"><div class="col-sm-12"><div id="choices" class="quiz1"></div></div></div>
+							<div class="row col-xs-6 col-xs-offset-3">
+								<input type="submit" id="backButton" value="Back" data-quiz="quiz1" class="btn btn-success">
+								<input type="submit" id="nextButton" value="Next" data-quiz="quiz1" class="btn btn-success">
+							</div>
+
+						</form>
+					</div>
+			</div>
+			<div class="tab-pane" id="2">
+
+					<div class="container">
+						<div class="row col-sm-8 col-md-offset-2"><div class="col-sm-12"><p class="h1">Sports Quiz</p></div></div>
+						<form id="form2">
+							<div class="row col-sm-8 col-md-offset-2"><div class="col-sm-12"><div id="question" class="quiz2"></div></div></div>
+							<div class="row col-sm-8 col-md-offset-2"><div class="col-sm-12"><div id="choices" class="quiz2"></div></div></div>
+							<div class="row col-xs-6 col-xs-offset-3">
+								<input type="submit" id="backButton" value="Back" data-quiz="quiz2" class="btn btn-success">
+								<input type="submit" id="nextButton" value="Next" data-quiz="quiz2" class="btn btn-success">
+							</div>
+						</form>
+					</div>
+			</div>
+        	<div class="tab-pane" id="3">
+
+					<div class="container">
+						<div class="row col-sm-8 col-md-offset-2"><div class="col-sm-12"><p class="h1">Astronomy Quiz</p></div></div>
+						<form id="form3">
+							<div class="row col-sm-8 col-md-offset-2"><div class="col-sm-12"><div id="question" class="quiz3"></div></div></div>
+							<div class="row col-sm-8 col-md-offset-2"><div class="col-sm-12"><div id="choices" class="quiz3"></div></div></div>
+								<div class="row col-xs-6 col-xs-offset-3">
+									<input type="submit" id="backButton" value="Back" data-quiz="quiz3" class="btn btn-success">
+									<input type="submit" id="nextButton" value="Next" data-quiz="quiz3" class="btn btn-success">
+								</div>
+						</form>
+					</div>
+			</div>
+  	</div>
+
+
+		<script
+		  src="https://code.jquery.com/jquery-3.1.1.min.js"
+		  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		  crossorigin="anonymous"></script>
+
+		  <!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

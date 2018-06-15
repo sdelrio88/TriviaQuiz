@@ -1,0 +1,25 @@
+.row {
+	text-align: center;
+}
+
+.nav-tabs {
+    display: inline-block;
+}
+
+.btn{
+    white-space:normal !important;
+    word-wrap:break-word; 
+}
+
+.score {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+.scoreTitle{
+
+	font-size: 25px;
+	font-weight: bold;
+}
+
